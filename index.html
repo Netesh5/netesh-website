@@ -60,10 +60,10 @@
           <li><a href="#portfolio">Gallery</a></li>
           <li><a href="#footer">Contact Me</a></li>
         </ul>
-      </nav><
+      </nav>
       
     </div>
-  </header><
+  </header>
 
   <!--==========================
     Intro Section
@@ -73,10 +73,8 @@
       <div class="row justify-content-center align-self-center">
         <div class="col-md-6 intro-info order-md-first order-last">
           <div class="container">
-            <!--<p class="display-6 color-d">Hello, world!</p>-->
             <h1 class="intro-title mb-4">I am Netesh Paudel</h1>
             <p class="intro-subtitle"><span class="text-slider-items">Computer Science Student,Programmer,Web Designer,Graphic Designer</span><strong class="text-slider"></strong></p>
-            <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
           </div>
                  <a href="#about" class="btn-get-started scrollto">Get Started</a>
                 </div>  
@@ -149,7 +147,7 @@
         </div>
         
         <div class="skillbar clearfix " data-percent="60%">
-          <div class="skillbar-title" style="background: #27ae60;"><span>Lightromm</span></div>
+          <div class="skillbar-title" style="background: #27ae60;"><span>Lightroom</span></div>
           <div class="skillbar-bar" style="background: #2ecc71;"></div>
           <div class="skill-bar-percent"></div>
         </div>
@@ -193,6 +191,7 @@
 
         <div class="row">
           <div class="col-lg-12">
+            <div class="filter-tag">Filter</div>
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">All</li>
               <li data-filter=".filter-Logo">Logo</li>
@@ -305,12 +304,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-Art" data-wow-delay="0.1s">
             <div class="portfolio-wrap">
-              <img src="img/portfolio/Art4.jpg" class="img-fluid" alt="">
+              <img src="img/portfolio/Ar.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4><a href="#"></a></h4>
                 <p></p>
                 <div>
-                  <a href="img/portfolio/Art4.jpg" class="link-preview" data-lightbox="portfolio" data-title="Illustrator-art" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="img/portfolio/Art.jpg" class="link-preview" data-lightbox="portfolio" data-title="Illustrator-art" title="Preview"><i class="ion ion-eye"></i></a>
                   
                 </div>
               </div>
@@ -379,7 +378,7 @@
         <div class="col-md-8 col-md-push-2">
           <div id="sendmessage">Write your Details</div>
           <div id="errormessage"></div>
-          <form action="" method="post" role="form" class="contactForm">
+          <form action="connect.php" method="post" role="form" class="contactForm">
             <div class="form-group">
               <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
               <div class="validation"></div>
@@ -389,11 +388,15 @@
               <div class="validation"></div>
             </div>
             <div class="form-group">
+              <input type="number" class="form-control" name="phone" id="phone" placeholder="Your Phone number" data-rule="mixlen:10" data-msg="Please enter a valid phone number" />
+              <div class="validation"></div>
+            </div>
+            <div class="form-group">
               <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
               <div class="validation"></div>
             </div>
             <div class="form-group">
-              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for me" placeholder="Message"></textarea>
               <div class="validation"></div>
             </div>
             <div class="text-center"><button type="submit" class="btn btn-primary btn-lg">Send Message</button></div>
