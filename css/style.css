@@ -680,7 +680,12 @@ h6 {
 #portfolio {
   padding: 60px 0;
 }
-
+#portfolio .filter-tag
+{
+  font-size: 25px;
+  margin-bottom: -53px;
+  margin-left: 250px;
+}
 #portfolio #portfolio-flters {
   padding: 0;
   margin: 5px 0 35px 0;
@@ -1057,6 +1062,12 @@ h6 {
   #testimonials .testimonial-item p {
     width: 80%;
   }
+  #portfolio .filter-tag
+  {
+    font-size: 20px;
+    margin-bottom: -50px;
+    margin-right: -100px;
+  }
 }
 
 @media (max-width: 991px) {
@@ -1073,6 +1084,12 @@ h6 {
     font-size: 28px;
     padding: 8px 0;
   }
+  #portfolio .filter-tag
+  {
+    font-size: 20px;
+    margin-bottom: -50px;
+    margin-left: -10px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1087,7 +1104,11 @@ h6 {
   #faq #faq-list i {
     top: 13px;
   }
+
+  
+
 }
+
 
 @media (max-width: 767px) {
   #intro {
@@ -1130,6 +1151,12 @@ h6 {
   .section-header p {
     width: 100%;
   }
+  #portfolio .filter-tag
+{
+  font-size: 18px;
+  margin-bottom: -50px;
+  margin-left: -10px;
+}
 
   #testimonials .testimonial-item {
     text-align: center;
