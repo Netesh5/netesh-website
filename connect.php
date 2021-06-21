@@ -5,7 +5,6 @@ $phone=$_POST['phone'];
 $subject=$_POST['subject'];
 $message=$_POST['message'];
 
-
 $conn = new mysqli('localhost','root','','contact_details');
 if($conn->connect_error){
     die('Connection Failed : '.$conn->connect_error);
@@ -18,5 +17,4 @@ if($conn->connect_error){
     $stmt->close();
     $conn->close();
 }
-
 ?>
